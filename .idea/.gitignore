@@ -6,3 +6,4 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/libraries/postgresql_42_3_1.xml
