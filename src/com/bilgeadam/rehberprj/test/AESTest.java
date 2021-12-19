@@ -8,7 +8,7 @@ public class AESTest {
     {
         final String secretKey = "gizli_bahce";
 
-        String originalString = "user1234";
+        String originalString = "admin1234";
         String encryptedString = AES.encrypt(originalString, secretKey) ;
         String decryptedString = AES.decrypt(encryptedString, secretKey) ;
 
