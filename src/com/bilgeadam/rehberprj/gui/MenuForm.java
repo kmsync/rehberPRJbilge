@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 public class MenuForm extends JFrame{
     private JButton ekleButton;
     private JPanel jPanel1;
+    private JButton silButton;
 
     public MenuForm()
     {
@@ -23,6 +24,14 @@ public class MenuForm extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 EkleForm ekle = new EkleForm();
                 ekle.setVisible(true);
+            }
+        });
+
+        silButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SilForm ekle = new SilForm();
+                sf.setVisible(true);
             }
         });
     }
